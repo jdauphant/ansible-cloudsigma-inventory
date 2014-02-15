@@ -22,7 +22,6 @@ Since this file includes credentials, it is highly recommended that you set the 
 
 import sys
 import cloudsigma
-from pprint import pprint
 
 try:
     import json
