@@ -21,9 +21,6 @@ Since this file includes credentials, it is highly recommended that you set the 
 '''
 
 import sys
-import os
-import argparse
-import re
 import cloudsigma
 from pprint import pprint
 
@@ -66,7 +63,6 @@ class CloudsigmaInventory(object):
                 self.push(self.inventory,group,ansible_host)
 
         self.hostvars[ansible_host]  = {'ansible_ssh_host' : server['nics'][0]['runtime']['ip_v4']['uuid'] }
-
         self.push(self.inventory, 'cloudsigma',ansible_host)
 
     def push(self, mydict, key, element):
