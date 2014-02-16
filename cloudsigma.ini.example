@@ -1,0 +1,13 @@
+## Ansible Cloudsigma external inventory scripts settings
+
+[cloudsigma]
+
+## By default : datacenter defined in .cloudsigma.conf
+## For zurich datacenter
+datacenters = zrh
+## For zurich, las vegas and washingthon datacenters 
+# datacenters = zrh,lvs,wdc
+
+groups_meta = groups
+dns_name_meta = dns_name
+
