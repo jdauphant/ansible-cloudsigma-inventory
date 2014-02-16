@@ -43,7 +43,7 @@ class CloudsigmaInventory(object):
         self.groups_meta = "groups"
         self.dns_name_meta = "dns_name"
 
-        #self.read_settings()
+        self.read_settings()
 
         self.connect_to_datacenters()
 
