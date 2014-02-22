@@ -11,7 +11,7 @@ variables needed for cloudsigma library have already been set:
     export CLOUDSIGMA_CONFIG='.cloudsigma.conf' (default : ~/.cloudsigma.conf)
 
 Content of .cloudsigma.conf
-    api_endpoint = https://zrh.cloudsigma.com/api/2.0/ (needed if you don't user clousigma.ini)
+    api_endpoint = https://zrh.cloudsigma.com/api/2.0/ (needed if you don't use clousigma.ini)
     username = user@domain.com
     password = secret
 
