@@ -1,7 +1,7 @@
 ansible-cloudsigma-inventory
 ============================
 
-Script for retreive Ansible inventory from Cloudsigma
+Script for retrieve Ansible inventory from Cloudsigma
 
 # Example commands
 
